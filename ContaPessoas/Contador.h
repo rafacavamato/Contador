@@ -13,6 +13,7 @@
 
 -(int)getBoys;
 -(int)getGirls;
-
+-(int)getTotal;
++(id)getInstance;
 @end
 
