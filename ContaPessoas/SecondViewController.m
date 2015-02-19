@@ -34,6 +34,6 @@
     _totalGirls.text = [NSString stringWithFormat: @"%d", [contador getGirls]];
     _total.text = [NSString stringWithFormat:@"%d", [contador getGirls] + [contador getBoys] ];
 }
-
+//testerino 
 
 @end
