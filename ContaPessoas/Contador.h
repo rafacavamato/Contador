@@ -6,7 +6,14 @@
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
+@protocol Mostrador <NSObject>
+@required
+-(void)atualiza;
+@end
+
 @interface Contador : NSObject 
+
+@property (nonatomic,weak)id mostrar;
 
 - (void)maisUmCueca;
 - (void)maisUmaGata;

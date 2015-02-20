@@ -23,21 +23,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYm-mB-gId">
-                                <rect key="frame" x="167" y="75" width="128" height="224"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="GJ8-PI-wpB"/>
-                                    <constraint firstAttribute="width" constant="150" id="wRK-D8-fAn"/>
-                                </constraints>
-                                <state key="normal" image="boy.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="clickBoy:" destination="9pv-A4-QxB" eventType="touchDown" id="QWF-hu-z2B"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQx-1Z-n65">
-                                <rect key="frame" x="298" y="81" width="111" height="211"/>
+                                <rect key="frame" x="325" y="81" width="111" height="211"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="D13-p5-bzh"/>
                                     <constraint firstAttribute="height" constant="150" id="Q06-7B-no7"/>
@@ -47,6 +34,19 @@
                                 </state>
                                 <connections>
                                     <action selector="clickGirl:" destination="9pv-A4-QxB" eventType="touchDown" id="7bZ-J4-gek"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYm-mB-gId">
+                                <rect key="frame" x="150" y="75" width="128" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="GJ8-PI-wpB"/>
+                                    <constraint firstAttribute="width" constant="150" id="wRK-D8-fAn"/>
+                                </constraints>
+                                <state key="normal" image="boy.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickBoy:" destination="9pv-A4-QxB" eventType="touchDown" id="QWF-hu-z2B"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="742" y="-376"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
